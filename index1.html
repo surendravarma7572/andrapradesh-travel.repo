@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Destinations</title>
+</head>
+<style>body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+
+header h1 {
+  background: linear-gradient(90deg,#c51515,#218192);
+  color: #fdf9f9;
+  padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.2rem 0;
+  font-size: 2.5rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 5;
+  display: inline-flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffd600;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.destination {
+  background: #d6d1d1;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.destination img {
+  width: 340px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+  flex-shrink: 0;
+}
+
+.info {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.info h2 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  color: #0d47a1;
+}
+
+.info p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: #0d47a1;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+@media (max-width: 700px) {
+  .destination {
+    flex-direction: column;
+    text-align: center;
+  }
+  .destination img {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px 12px 0 0;
+  }
+  .info {
+    padding: 1rem;
+  }
+}</style>
+<body>
+  <header>
+    <h1><i>Go-Find-Explore</i></h1>
+  </header>
+  <main>
+    <section class="destination" id="Telangana">
+      <img src="valley.jpg" alt="Telangana">
+      <div class="info">
+        <h2>Araku valley</h2>
+        <p>"Araku Valley is blessed with the enchanting beauty of hills and greenery, interspersed with streams and rivulets".</p>
+          <br> <a href="index2.html" target="_blank"><b>View Details</b></a>
+      </div>
+    </section>
+    <section class="destination" id="Kerla">
+      <img src="plants.jpg" alt="kerlas">
+      <div class="info">
+        <h2>Organic Coffee Plants</h2>
+        <p>"Grow organic for a healthy body and a healthy planet"</p>
+          <br> <a href="index3.html" target="_blank"><b>View Details</b></a>
+      </div>
+    </section>
+    <section class="destination" id="Andrapradesh">
+      <img src="katika.jpg" alt="Andrapradesh">
+      <div class="info">
+        <h2>Katiki Waterfalls</h2>
+        <p>"A river cuts through a rock, not because of its power but because of its persistence".</p>
+          <br> <a href="index1.html" target="_blank"><b>View Details</b></a>
+      </div>
+    </section>
+     <section class="destination" id="Andrapradesh">
+      <img src="borra.jpg" alt="Andrapradesh">
+      <div class="info">
+        <h2>Borra Caves</h2>
+        <p>"The magic of light and shadow: Lighting installed within the cave enhances its enchanting atmosphere.."</p>
+          <br> <a href="index1.html" target="_blank"><b>View Details</b></a>
+      </div>
+    </section>
+    <section class="destination" id="Andrapradesh">
+      <img src="tribal1.jpg" alt="Andrapradesh">
+      <div class="info">
+        <h2>Tribal museum</h2>
+        <p>"Simplicity is not a lack of resources, but a wealth of wisdom. It is a lesson the tribes teach so well."</p>
+          <br> <a href="index1.html" target="_blank"><b>View Details</b></a>
+      </div>
+    </section>
+    
+  </main>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Destinations</title>
+</head>
+<style>body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f8f9fa;
+  color: #222;
+}
+
+header {
+  background: linear-gradient(90deg,#218192,#c51515);
+  color: #fff;
+  padding: 3rem 3rem 3rem 3rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 0 0.2rem 0;
+  font-size: 2.6rem;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 5;
+  display: inline-flex;
+  gap: 1.5rem;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 200;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffd600;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.destination {
+  background: #dad4d4;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.07);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.destination img {
+  width: 340px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px 0 0 12px;
+  flex-shrink: 0;
+}
+
+.info {
+  padding: 1.5rem;
+  flex: 1;
+}
+
+.info h2 {
+  margin-top: 0;
+  font-size: 1.7rem;
+  color: #0d47a1;
+}
+
+.info p {
+  margin-bottom: 0;
+  font-size: 1.1rem;
+}
+
+footer {
+  background: linear-gradient(90deg,#218192,#c51515);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+@media (max-width: 700px) {
+  .destination {
+    flex-direction: column;
+    text-align: center;
+  }
+  .destination img {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px 12px 0 0;
+  }
+  .info {
+    padding: 1rem;
+  }
+}</style>
+<body>
+  <header>
+    <h1><i>Andra Pradesh Tourism</i></h1>
+  </header>
+  <main>
+    <section class="destination">
+      <img src="araku.jpg">
+      <div class="info">
+        <h2>Araku</h2>
+        <p>"Araku is blessed with enchanting beauty of the hills and greenery,interspersed with streams and rivulets.. Araku is not just a place - It is a place full of love".</p>
+        <br> <a href="index1.html" target="_blank"><b>View Locations</b></a>
+      </div>
+    </section>
+    <section class="destination" id="Andrapradesh">
+      <img src="vizag.jpg">
+      <div class="info">
+        <h2>Visakhapatnam</h2>
+        <p> "Visakhapatnam is widely known as the "City of Destiny." The name may have been inspired by the belief that destiny favors the brave, as the city was named after Lord Visakha".</p>
+        <br>
+         <a href="index1.html" target="_blank"><b>View Locations</b></a>
+      </div>
+    </section>
+    <section class="destination" id="Telangana">
+      <img src="kkd.jpg">
+      <div class="info">
+        <h2>Kakinada</h2>
+        <p>"Kakinada is a city with a perfect blend One side showcases the rich cultural heritage, while the other side will leave you in awe of its success in industrialization".</p>
+         <br> <a href="index1.html" target="_blank"><b>View Locations</b></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <br>
+  </footer>
+</body>
+</html>
